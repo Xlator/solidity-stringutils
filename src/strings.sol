@@ -1,3 +1,5 @@
+pragma solidity ^0.4.14;
+
 /*
  * @title String & slice utility library for Solidity contracts.
  * @author Nick Johnson <arachnid@notdot.net>
@@ -34,7 +36,7 @@
  *      corresponding to the left and right parts of the string.
  */
 
-pragma solidity ^0.4.14;
+
 
 library strings {
     struct slice {
